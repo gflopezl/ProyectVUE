@@ -1,0 +1,106 @@
+.alerta {
+            color: red;
+            font-size: 12px;
+            margin-left: 10px;
+        }
+.nav-bar {
+        display: flex;
+        justify-content: space-between;
+        background-color: #333;
+        padding: 10px;
+    }
+    .nav-bar a {
+        color: white;
+        padding: 14px 20px;
+        text-decoration: none;
+        text-align: center;
+    }
+    .nav-bar a:hover {
+        background-color: #575757;
+    }
+    .search-bar {
+        margin-left: auto;
+        padding: 5px;
+    }
+    .search-button {
+        background-color: #575757;
+        color: white;
+        padding: 5px 10px;
+        border: none;
+        cursor: pointer;
+    }
+    .search-button:hover {
+        background-color: #333;
+    }
+    .content {
+        padding: 20px;
+    }
+    .alerta {
+        color: red;
+    }
+    /* Centramos el contenido del formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+/* Estilo para los input */
+form input {
+    margin-bottom: 15px;
+    width: 80%; /* Ajusta el tamaño según tus necesidades */
+    max-width: 400px; /* Ancho máximo para que no se expanda demasiado */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Estilo para los botones */
+form button {
+    width: 10%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #575757;
+}
+/* Centramos los títulos */
+h2, h1, h3, h4, h5, h6 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    background-color: #333; /* Color de fondo de la barra de navegación */
+    padding: 10px;
+}
+
+.nav-title {
+    color: white; /* Color blanco para el título */
+    font-size: 2em; /* Tamaño más grande del título */
+    margin-right: 30px; /* Espacio entre el título y los enlaces */
+    font-weight: bold; /* Letra en negrita */
+}
+
+a {
+    color: #fff; /* Enlaces de color blanco */
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.search-bar {
+    margin-left: auto; /* Mueve el buscador hacia la derecha */
+}
+
+.search-button {
+    margin-left: 5px;
+}
